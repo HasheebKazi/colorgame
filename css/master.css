@@ -1,0 +1,80 @@
+/* -- boby  */
+body {
+    background-color: #232323;
+    margin: 0;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+/* -- header styles */
+.wrapper {
+    text-align: center;
+    background-color: steelblue;
+}
+
+h1 {
+    font-weight: normal;
+    text-align: center;
+    color: white;
+    margin: 0;
+    line-height: 1.1;
+    padding: 20px 0;
+    text-transform: uppercase;
+}
+
+#hint {
+    font-size: 200%;
+}
+
+/* -- game controls */
+.stripe {
+    text-align: center;
+    background-color: white;
+    height: 30px;
+    color: white;
+}
+
+.selected {
+    color: white;
+    background-color: steelblue;
+}
+
+#message {
+    text-align: center;
+    display: inline-block;
+    width: 20%;
+    color: black;
+}
+
+button {
+    border: none;
+    text-transform: uppercase;
+    background: none;
+    height: 100%;
+    font-weight: 700;
+    color: steelblue;
+    letter-spacing: 1px;
+    transition: all 0.3s;
+    outline: none;
+}
+
+button:hover {
+    color: white;
+    background-color: steelblue;
+}
+
+
+/* -- game board */
+.gameSquare {
+    float: left;
+    background-color: purple;
+    width: 30%;
+    margin: 1.66%;
+    padding-bottom: 30%;
+    border-radius: 15%;
+    transition: background 0.6s;
+}
+
+.gameBoard {
+    margin: 20px auto;
+    max-width: 600px;
+}
