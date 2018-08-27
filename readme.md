@@ -5,5 +5,5 @@ Js color guessing game
   - easy: 3 squares
   - hard: 6 squares
   
-This project is part of Colt Steeles Udemy web development course.
+This project is part of Colt Steele's Udemy web development course.
 All HTML and CSS was copied from the exercise. All js is my own work.
