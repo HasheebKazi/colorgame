@@ -49,9 +49,9 @@ function startGame(mode){
 
     // select mode
     if (mode === 'easy') {
-        gameBoard.innerHTML = '<div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div>';
-    } else {
         gameBoard.innerHTML = '<div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div>';
+    } else {
+        gameBoard.innerHTML = '<div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div><div class="gameSquare"></div>';
     }
 
     // initialize the board
